@@ -1,4 +1,5 @@
 import 'package:ecommerce/screens/splash.dart';
+import 'package:ecommerce/styles/defauls.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,10 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: Splash());
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primaryColor: defaulColor,
+        fontFamily: "Raleway",
+      ),
+      // home: Splash(),
+      home: Splash(),
+    );
   }
 }
