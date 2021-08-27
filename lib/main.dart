@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/home.dart';
 import 'package:ecommerce/screens/splash.dart';
 import 'package:ecommerce/styles/defauls.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Raleway",
       ),
       // home: Splash(),
-      home: Splash(),
+      home: HomeScreen(),
     );
   }
 }
